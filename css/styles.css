@@ -305,6 +305,16 @@ h3,
 p {
   margin: 0;
 }
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .header-menu {
   border-bottom: 1px solid #ececec;
@@ -531,12 +541,12 @@ img {
   padding-bottom: 6px;
 }
 .portfolio .portfolio-ul {
+  margin-bottom: 50px;
   justify-content: center;
 }
 
 .portfolio-ul .element-li {
   margin-right: 8px;
-  margin-bottom: 50px;
 }
 
 .portfolio-ul .element-li:last-child {
@@ -552,17 +562,12 @@ img {
 .portfolio .portfolio-photos {
   display: flex;
   flex-wrap: wrap;
-  width: 1230px;
-  justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .portfolio-photos .element-li {
   margin-right: 30px;
-  margin-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 30px;
 }
 .portfolio-photos .element-li:nth-child(3n) {
   margin-right: 0;
@@ -573,7 +578,6 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
 }
 
 .project .typeof-project {
@@ -581,7 +585,10 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  margin-bottom: 4px;
+}
+
+.about-projects {
+  padding: 20px 24px;
 }
 
 .portfolio .portfolio-ul {
