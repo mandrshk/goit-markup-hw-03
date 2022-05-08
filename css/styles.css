@@ -543,6 +543,7 @@ img {
   letter-spacing: 0.03em;
   padding-top: 6px;
   padding-bottom: 6px;
+  border: transparent;
 }
 .portfolio .portfolio-ul {
   margin-bottom: 50px;
