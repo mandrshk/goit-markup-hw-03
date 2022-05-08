@@ -433,6 +433,7 @@ p {
   line-height: 1.9;
   letter-spacing: 0.06em;
   border: transparent;
+  padding: 10px 32px;
 }
 .hidden-header {
   visibility: hidden;
